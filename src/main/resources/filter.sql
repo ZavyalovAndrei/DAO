@@ -1,0 +1,1 @@
+select ORDERS.product_name from CUSTOMERS join ORDERS on CUSTOMERS.id = ORDERS.customer_id WHERE name = :name;
