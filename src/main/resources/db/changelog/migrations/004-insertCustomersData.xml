@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                     http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+    <changeSet id="20220926" author="Zavialov" >
+        <insert tableName="CUSTOMERS">
+            <column name="name" value="Yan"/>
+            <column name="surname" value="Fedorov"/>
+            <column name="age" value="37"/>
+            <column name="phone_number" value="964-36-75"/>
+        </insert>
+        <insert tableName="CUSTOMERS">
+            <column name="name" value="Alexey"/>
+            <column name="surname" value="Uzenjuk"/>
+            <column name="age" value="28"/>
+            <column name="phone_number" value="+7(852)323-15-69"/>
+        </insert>
+        <insert tableName="CUSTOMERS">
+            <column name="name" value="Damiano"/>
+            <column name="surname" value="David"/>
+            <column name="age" value="23"/>
+            <column name="phone_number" value="8(856)337-56"/>
+        </insert>
+        <insert tableName="CUSTOMERS">
+            <column name="name" value="Anessa"/>
+            <column name="surname" value="Lippa"/>
+            <column name="age" value="27"/>
+            <column name="phone_number" value="45236856"/>
+        </insert>
+        <insert tableName="CUSTOMERS">
+            <column name="name" value="Vladimir"/>
+            <column name="surname" value="Kotlyarov"/>
+            <column name="age" value="34"/>
+            <column name="phone_number" value="1120568"/>
+        </insert>
+        <insert tableName="CUSTOMERS">
+            <column name="name" value="Billie"/>
+            <column name="surname" value="Eilish Pirate Baird O`Connell"/>
+            <column name="age" value="22"/>
+            <column name="phone_number" value="+26687993"/>
+        </insert>
+        <insert tableName="CUSTOMERS">
+            <column name="name" value="Alexey"/>
+            <column name="surname" value="Kortnev"/>
+            <column name="age" value="55"/>
+            <column name="phone_number" value="+397852526"/>
+        </insert>
+        <insert tableName="CUSTOMERS">
+            <column name="name" value="Alexandr"/>
+            <column name="surname" value="Ivanov"/>
+            <column name="age" value="54"/>
+            <column name="phone_number" value="8371557"/>
+        </insert>
+        <insert tableName="CUSTOMERS">
+            <column name="name" value="Alexey"/>
+            <column name="surname" value="Gorshnev"/>
+            <column name="age" value="46"/>
+            <column name="phone_number" value="5632489"/>
+        </insert>
+        <insert tableName="CUSTOMERS">
+            <column name="name" value="Dmitry"/>
+            <column name="surname" value="Spirin"/>
+            <column name="age" value="47"/>
+            <column name="phone_number" value="875-69-30"/>
+        </insert>
+        <insert tableName="CUSTOMERS">
+            <column name="name" value="Alexey"/>
+            <column name="surname" value="Nikonov"/>
+            <column name="age" value="46"/>
+            <column name="phone_number" value="872 15 46"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>

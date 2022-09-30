@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+    <changeSet id="20220924" author="Zavialov">
+        <createTable tableName="ORDERS">
+            <column autoIncrement="true" name="id" type="int">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="customers_id" type="int">
+                <constraints foreignKeyName="fk_orders_customers_id_customers_id" references="CUSTOMERS(id)"/>
+            </column>
+            <column name="product_name" type="varchar(250)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="amount" type="int">
+                <constraints checkConstraint="amount > 0"/>
+            </column>
+        </createTable>
+    </changeSet>
+</databaseChangeLog>
