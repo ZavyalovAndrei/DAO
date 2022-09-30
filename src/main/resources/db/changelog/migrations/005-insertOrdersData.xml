@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                     http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet id="20220925" author="Zavialov" >
+        <insert tableName="ORDERS">
+            <column name="customers_id" value="7"/>
+            <column name="product_name" value="Bluetooth receiver Ugreen"/>
+            <column name="amount" value="1"/>
+        </insert>
+        <insert tableName="ORDERS">
+            <column name="customers_id" value="4"/>
+            <column name="product_name" value="Notebook Xiaomi RedmiBook Pro 14"/>
+            <column name="amount" value="1"/>
+        </insert>
+        <insert tableName="ORDERS">
+            <column name="customers_id" value="11"/>
+            <column name="product_name" value="Lenovo Tab P11 Pro TB-J706L"/>
+            <column name="amount" value="2"/>
+        </insert>
+        <insert tableName="ORDERS">
+            <column name="customers_id" value="1"/>
+            <column name="product_name" value="SD card Sandisk 128ГБ SDSDXDK-128G-GN4IN UHS-II U3"/>
+            <column name="amount" value="6"/>
+        </insert>
+        <insert tableName="ORDERS">
+            <column name="customers_id" value="8"/>
+            <column name="product_name" value="Telephone Xiaomi Redmi 10C NFC 4/64"/>
+            <column name="amount" value="1"/>
+        </insert>
+        <insert tableName="ORDERS">
+            <column name="customers_id" value="5"/>
+            <column name="product_name" value="Video camera Sony y ILME-FX3"/>
+            <column name="amount" value="1"/>
+        </insert>
+        <insert tableName="ORDERS">
+            <column name="customers_id" value="3"/>
+            <column name="product_name" value="Wi-fi repeater Xiaomi Mi Wi-Fi Range Extender Pro CN"/>
+            <column name="amount" value="1"/>
+        </insert>
+        <insert tableName="ORDERS">
+            <column name="customers_id" value="2"/>
+            <column name="product_name" value="Telephone Apple iPhone 14 Pro Max 128"/>
+            <column name="amount" value="1"/>
+        </insert>
+        <insert tableName="ORDERS">
+            <column name="customers_id" value="6"/>
+            <column name="product_name" value="Keyboard Xiaomi MIIIW"/>
+            <column name="amount" value="9"/>
+        </insert>
+        <insert tableName="ORDERS">
+        <column name="customers_id" value="9"/>
+        <column name="product_name" value="Notebook MSI GF63 10SC-635XRU"/>
+        <column name="amount" value="1"/>
+        </insert>
+        <insert tableName="ORDERS">
+            <column name="customers_id" value="3"/>
+            <column name="product_name" value="Wi-fi router TP-LINK Archer C80"/>
+            <column name="amount" value="2"/>
+        </insert>
+        <insert tableName="ORDERS">
+            <column name="customers_id" value="11"/>
+            <column name="product_name" value="Sony PlayStation 5 825Gb"/>
+            <column name="amount" value="1"/>
+        </insert>
+        <insert tableName="ORDERS">
+            <column name="customers_id" value="5"/>
+            <column name="product_name" value="Computer GANSOR-158348"/>
+            <column name="amount" value="1"/>
+        </insert>
+        <insert tableName="ORDERS">
+            <column name="customers_id" value="9"/>
+            <column name="product_name" value="Monitor Samsung Odyssey G5 C34G55TWWI"/>
+            <column name="amount" value="1"/>
+        </insert>
+        <insert tableName="ORDERS">
+            <column name="customers_id" value="8"/>
+            <column name="product_name" value="Clock Samsung Galaxy Watch4 Classic"/>
+            <column name="amount" value="1"/>
+        </insert>
+        <insert tableName="ORDERS">
+            <column name="customers_id" value="4"/>
+            <column name="product_name" value="Video card GIGABYTE AORUS GeForce RTX 3080 Ti"/>
+            <column name="amount" value="1"/>
+        </insert>
+        <insert tableName="ORDERS">
+            <column name="customers_id" value="6"/>
+            <column name="product_name" value="PC power supply Dell PS-2112-2D-LF"/>
+            <column name="amount" value="1"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
